@@ -1,0 +1,146 @@
+/* CSS Document */
+
+
+*
+{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.article
+{
+	display: block;
+	margin: 10px;
+	background: rgba(225,72,74,0.59);
+}
+
+.article h2
+{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px;
+}
+
+.article h3
+{
+	font-size: 12px;
+	padding: 5px;
+}
+
+div
+{
+	padding: 10px;
+	border: thin dashed silver;
+}
+
+body
+{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	background: rgba(0,0,0,0.79);
+}
+
+.title
+{
+	display: block;
+	background: black;
+	color:white;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.header
+{
+	height: 120px;
+	border-bottom: thin red solid;
+	background: black;
+	color: white;
+}
+
+.main
+{
+	width: 1200px;
+	min-height: 300px;
+	height: auto;
+	overflow: hidden;
+}
+
+.menu
+{
+	width: 200px;
+	text-align: right;
+	background: black;
+	float: left;
+}
+
+.menu a
+{
+	display: block;
+	margin-bottom: 1px;
+	padding: 5px;
+	text-align: left;
+	background: rgba(199,88,90,0.55);
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+table
+{
+	float: left;
+	min-width: 600px;
+	border: thin solid silver;
+}
+td, th
+{
+	padding: 5px;
+	border-bottom: dashed silver thin;
+	text-align: left;
+}
+
+.content
+{
+	width: 900px;
+	background: white;
+	float: right;
+	min-height: 300px;
+	height: auto;
+	overflow: hidden;
+}
+
+.footer
+{
+	height: 60px;
+	padding: 20px;
+	color: white;
+	background: black;
+	border-top: red solid thin;
+	position: fixed;
+	left:0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.error
+	{
+		color: red;
+		font-weight: bold;
+	}
+	.success
+	{
+		color: green;
+		font-weight: bold;
+	}
+	
+	input[type="text"], input[type="password"], textarea, select
+	{
+		padding: 5px;
+		font-size: 15px;
+		background: silver;
+		min-width: 600px;
+	}
+	
+	input[type="text"]:focus, textarea:focus, select:focus
+	{
+		background: white;
+	}
+	
